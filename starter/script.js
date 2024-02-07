@@ -113,3 +113,17 @@ for (let i = 0; i < finances.length; i++) {
 // solve for the average change
 
   averageChange = totalAmount/totalMonths;
+
+  // solve for the greatest profit/loss and the state the date
+
+  for (let i = 0; i < finances.length; i++) {
+
+
+    if (finances[i][1] > greatestIncrease) {
+  
+      greatestIncrease = finances[i][1];
+  
+      dateOfGreatestIncrease = finances[i][0];
+  
+      }  
+    }
