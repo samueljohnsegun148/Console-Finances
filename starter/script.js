@@ -127,3 +127,18 @@ for (let i = 0; i < finances.length; i++) {
   
       }  
     }
+
+    // solve for the greatest decrease and the date
+    for (let i = 0; i < finances.length; i++) {
+
+
+        if (finances[i][1] < greatestDecrease) {
+      
+          greatestDecrease = finances[i][1];
+      
+          dateOfGreatestDecrease = finances[i][0];
+      
+          }  
+        }
+
+        
