@@ -110,3 +110,6 @@ for (let i = 0; i < finances.length; i++) {
   
   }
 
+// solve for the average change
+
+  averageChange = totalAmount/totalMonths;
