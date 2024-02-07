@@ -102,5 +102,11 @@ let dateOfGreatestDecrease;
 
 totalMonths = finances.length;
 
+// find the total amount of profit/loss
 
+for (let i = 0; i < finances.length; i++) {
+
+    totalAmount = finances[i][1] + totalAmount
+  
+  }
 
