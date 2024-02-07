@@ -88,3 +88,12 @@
     ['Jan-2017', 138230],
     ['Feb-2017', 671099],
   ];
+
+let totalMonths;
+let totalAmount = 0;
+let profitLoss = 0;
+let averageChange;
+let greatestIncrease = 0;
+let greatestDecrease = 0;
+let dateOfGreatestIncrease;
+let dateOfGreatestDecrease;
