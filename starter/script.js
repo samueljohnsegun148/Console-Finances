@@ -97,3 +97,10 @@ let greatestIncrease = 0;
 let greatestDecrease = 0;
 let dateOfGreatestIncrease;
 let dateOfGreatestDecrease;
+
+/* Solve for the total number of financial months */
+
+totalMonths = finances.length;
+
+
+
