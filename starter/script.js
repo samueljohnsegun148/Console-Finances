@@ -141,4 +141,12 @@ for (let i = 0; i < finances.length; i++) {
           }  
         }
 
-        
+    // print outputs with console.log
+    console.log("Financial Analysis");
+    console.log("--------------------");
+    console.log("Total Months:", totalMonths);
+    console.log("Total:", totalAmount);
+    console.log("Average:", averageChange);
+    console.log("Greatest Increase in Profits/Losses:", dateOfGreatestIncrease + "(" + greatestIncrease + ")");
+    console.log("Greatest Decrease in Profits/Losses:", dateOfGreatestDecrease + "(" + greatestIncrease + ")");
+
