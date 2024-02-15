@@ -105,39 +105,25 @@ totalMonths = finances.length;
 // find the total amount of profit/loss
 
 for (let i = 0; i < finances.length; i++) {
-
     totalAmount = finances[i][1] + totalAmount
-  
   }
 
 // solve for the average change
-
-  averageChange = totalAmount/totalMonths;
+  averageChange = totalAmount/totalMonths
 
   // solve for the greatest profit/loss and the state the date
-
   for (let i = 0; i < finances.length; i++) {
-
-
     if (finances[i][1] > greatestIncrease) {
-  
       greatestIncrease = finances[i][1];
-  
       dateOfGreatestIncrease = finances[i][0];
-  
       }  
     }
 
     // solve for the greatest decrease and the date
     for (let i = 0; i < finances.length; i++) {
-
-
         if (finances[i][1] < greatestDecrease) {
-      
           greatestDecrease = finances[i][1];
-      
           dateOfGreatestDecrease = finances[i][0];
-      
           }  
         }
 
@@ -150,3 +136,8 @@ for (let i = 0; i < finances.length; i++) {
     console.log("Greatest Increase in Profits/Losses:", dateOfGreatestIncrease + "(" + greatestIncrease + ")");
     console.log("Greatest Decrease in Profits/Losses:", dateOfGreatestDecrease + "(" + greatestIncrease + ")");
 
+   
+
+
+   
+   
