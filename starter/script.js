@@ -136,8 +136,15 @@ for (let i = 0; i < finances.length; i++) {
     console.log("Greatest Increase in Profits/Losses:", dateOfGreatestIncrease + "(" + greatestIncrease + ")");
     console.log("Greatest Decrease in Profits/Losses:", dateOfGreatestDecrease + "(" + greatestIncrease + ")");
 
-   
+  // display result on the browser
+ let result = {
+  "Total Months": totalMonths,
+  "Total": totalAmount,
+  "Average": averageChange,
+  "Greatest Increase in Profits/Losses": dateOfGreatestIncrease + "(" + greatestIncrease + ")",
+  "Greatest Decrease in Profits/Losses": dateOfGreatestDecrease + "(" + greatestIncrease + ")",
+ }
+ let myResult = JSON.stringify(result);
+ document.getElementById("result").innerHTML = myResult;
+ 
 
-
-   
-   
